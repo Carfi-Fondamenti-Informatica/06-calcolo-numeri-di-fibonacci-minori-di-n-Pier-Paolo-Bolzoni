@@ -2,12 +2,11 @@
 using namespace std;
 int main() {
 
-    int a=1, b=1, c=0, n;
+    int a=1, b=0, c=0, n;
 
     cin >> n;
-    cout << a << "\n" << b << endl;
 
-    while( c<n){
+    while( c<=n){
         c=a+b;
         if(c<=n){
             cout << c << endl;
