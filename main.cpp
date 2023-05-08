@@ -8,7 +8,7 @@ int main() {
 
     while( c<n){
         c=a+b;
-        if(c<n){
+        if(c<=n){
             cout << c << endl;
         }
         a=b;
